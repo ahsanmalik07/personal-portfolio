@@ -45,6 +45,8 @@ a {
     font-family: 'Jura', sans-serif;
 }
 
+.portfolio-btn a {}
+
 .portfolio-btn:hover {
     background: linear-gradient(147deg, #ff3f34 0%, #f53329 74%);
     color: black;
@@ -627,6 +629,61 @@ input[type="checkbox"] {
 
 
 /*Blogs end*/
+
+#impressions {
+    margin: 2vw auto 2vw auto;
+    position: relative;
+    min-height: 650px;
+    border-bottom: 1px solid var(--theme-color);
+    width: 75%;
+    justify-content: center;
+    align-items: center;
+}
+
+.impr-details {
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.impr-heading {
+    text-align: center;
+    color: var(--font-color-1);
+    padding: 1rem;
+    position: relative;
+    font-size: 1.4rem;
+    font-family: 'Jura', sans-serif;
+}
+
+.impr-heading h2 {
+    font-size: 3em;
+    font-weight: 400;
+}
+
+.impr-heading::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+    height: 4px;
+    width: 100px;
+    background-color: var(--font-color-1);
+}
+
+#carouselExampleControls img {
+    width: 70px;
+    margin: 10px;
+    border-radius: 100%;
+    box-shadow: 0px 15px 10px -5px #111;
+}
+
+#carouselExampleControls {
+    margin: auto;
+    display: block;
+}
 
 #my-footer {
     margin: 2vw auto 2vw auto;
