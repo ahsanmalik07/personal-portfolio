@@ -32,7 +32,7 @@
             </a>
         </div>
 
-        <div class="nav-section">
+        <div class="nav-section  ">
             <ul class="nav justify-content-end">
                 <li class="nav-item">
                     <a class="nav-link active" href="#intro">Skills</a>
@@ -194,8 +194,8 @@
 
             <div class="project-links">
 
-                <div class="project-card">
-                    <img class="card-img-top" src="imgs/blog-image.jpg" alt="Card image cap">
+                <div id=" prj-4" class="project-card">
+                    <img class="card-img-top" src="" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">Weather API</h5>
                         <p class="card-text">A new design framework, named Aerosmith, which provides autonomous edge resource organization with smallcell integration and topology handling.</p>
@@ -205,7 +205,7 @@
                     <a href="https://ieeexplore.ieee.org/document/8403593" class="btn btn-primary">Details</a>
                 </div>
 
-                <div class="project-card">
+                <div id=" prj-3" class="project-card">
 
                     <div class="card-body">
                         <h5 class="card-title">Autonomous self-organizing control-plane for 5G netoworks</h5>
@@ -216,7 +216,7 @@
                     <a href="https://ieeexplore.ieee.org/document/8403593" class="btn btn-primary">Details</a>
                 </div>
 
-                <div class="project-card">
+                <div id="prj-2" class="project-card">
 
                     <div class="card-body">
                         <h5 class="card-title">Peer-to-Peer Based Intrusion Detection System</h5>
@@ -226,12 +226,13 @@
                     </div>
 
                 </div>
-                <div class="project-card">
+                <div id="prj-1" class="project-card">
 
                     <div class="card-body">
                         <h5 class="card-title">IP-Based Wireless Sensor Network</h5>
-                        <p class="card-text"></p>
+                        <p class="card-text">Wireless sensor networks are being used for various purposes and is one of the emerging technologies. This project was a small prototype as of how an IP-based wireless sensor network would work</p>
 
+                        <span>#c++, #embeded, #html, #css, #sensors </span>
                     </div>
 
                 </div>
@@ -240,7 +241,7 @@
             </div>
 
             <div class="project-btn">
-                <a href="" class="portfolio-btn">Show More</a>
+                <a id="show-prjs" class="portfolio-btn d-none" type="button" onclick="seeMorePrjs()">Show More</a>
             </div>
 
 
@@ -373,7 +374,7 @@
 
     </footer>
 
-
+    <script src="sandbox.js"></script>
 </body>
 
 </html>
