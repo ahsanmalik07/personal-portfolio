@@ -682,7 +682,17 @@ input[type="checkbox"] {
         padding: 2rem 50px;
     }
     .blog-card {
-        width: 50rem;
+        width: 40rem;
+    }
+    .footer-menu {
+        display: none;
+    }
+    .footer-icons,
+    .return-button {
+        font-size: 0.7rem;
+    }
+    .my-signature {
+        font-size: 0.8rem;
     }
 }
 
@@ -710,6 +720,9 @@ input[type="checkbox"] {
     .inner-part img {
         display: none;
     }
+    .inner-part label {
+        display: none;
+    }
     .sliders {
         bottom: 20px;
         left: 50%;
@@ -718,5 +731,40 @@ input[type="checkbox"] {
         position: relative;
         height: 10px;
         width: 40px;
+    }
+    .footer-icons,
+    .return-button {
+        font-size: 0.6rem;
+    }
+    .my-signature {
+        font-size: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .blog-card {
+        width: 5px;
+        height: 20px;
+        padding: 0px;
+        transform: translateX(-100px);
+        padding-top: 25px;
+    }
+    .blog-card .inner-part {
+        width: 10rem;
+        height: 20rem;
+    }
+    .blog-heading {
+        font-size: 1.2rem;
+    }
+    .sliders {
+        position: absolute;
+        bottom: 0px;
+        left: 0;
+        transform: translateY(420px);
+        z-index: 12;
+        display: flex;
+    }
+    .my-signature {
+        font-size: 0.5px;
     }
 }
