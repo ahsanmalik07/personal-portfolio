@@ -1,7 +1,8 @@
 :root {
     --theme-color: #2ca391;
     --bg-color: #353b48;
-    --font-color-cloud: f5f6fa;
+    --font-color-cloud: #f5f6fa;
+    --font-color-text: black;
     --font-color-1: #ff3f34;
 }
 
@@ -12,7 +13,7 @@
 }
 
 body {
-    background-image: f5f6fa;
+    background-image: #f5f6fa;
     position: relative;
 }
 
@@ -79,7 +80,7 @@ a {
 
 .nav-main .nav-section ul li a {
     font-size: 1.4rem;
-    color: var(--font-color-cloud);
+    color: var(--font-color-text);
     font-family: 'Kanit', sans-serif;
 }
 
@@ -120,12 +121,11 @@ a {
 
 .model {
     margin: 2px;
-    width: 480px;
+    width: 400px;
     padding-right: 35px;
 }
 
 .model img {
-    border-radius: 50%;
     width: 100%;
     object-fit: contain;
     /*contain on parent div above*/
@@ -138,7 +138,7 @@ a {
 
 .main-text {
     font-family: 'Abel', sans-serif;
-    color: var(--font-color-cloud);
+    color: var(--font-color-text);
 }
 
 .main-text .logo-heading {
@@ -237,12 +237,12 @@ a {
     grid-gap: 0.6rem;
     padding: 1rem 60px;
     font-size: 1rem;
-    color: var(--font-color-cloud);
+    color: var(--font-color-text);
     font-family: 'Jura', sans-serif;
 }
 
 .skill-box {
-    color: var(--font-color-cloud);
+    color: var(--font-color-text);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -387,12 +387,12 @@ a {
     grid-gap: 0.8rem;
     padding: 1rem 80px;
     font-size: 1.2rem;
-    color: var(--font-color-cloud);
+    color: var(--font-color-text);
     font-family: 'Jura', sans-serif;
 }
 
 #projects .project-card {
-    color: var(--font-color-cloud);
+    color: var(--font-color-text);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -554,7 +554,7 @@ a {
     margin-bottom: 30px;
     line-height: 1.5em;
     text-align: justify;
-    color: var(--font-color-cloud);
+    color: var(--font-color-text);
 }
 
 .content button {
@@ -802,7 +802,7 @@ ul li a:focus {
 
 .screen {
     position: relative;
-    background: var(--font-color-cloud) !important;
+    background: transparent !important;
     border-radius: 15px;
 }
 
@@ -870,7 +870,7 @@ ul li a:focus {
 }
 
 .app-form-control::placeholder {
-    color: #666;
+    color: rgb(189, 184, 184);
 }
 
 .app-form-control:focus {
@@ -934,7 +934,7 @@ ul li a:focus {
     width: 90%;
     justify-content: space-around;
     align-items: center;
-    color: var(--font-color-cloud);
+    color: var(--font-color-text);
     display: flex;
     font-family: 'Jura', sans-serif;
 }
@@ -946,7 +946,7 @@ ul li a:focus {
 }
 
 .footer-list .nav-item a {
-    color: var(--font-color-cloud) !important;
+    color: var(--font-color-text) !important;
     font-size: 1.1rem;
     font-weight: bolder !important;
 }
