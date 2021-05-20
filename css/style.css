@@ -757,11 +757,12 @@ ul li a:focus {
 #contact-form {
     margin: 2vw auto 2vw auto;
     position: relative;
-    min-height: 700px;
+    min-height: 600px;
     border-bottom: 1px solid var(--theme-color);
     width: 85%;
     justify-content: center;
     align-items: center;
+    padding-bottom: 50px;
 }
 
 .ct-details {
@@ -801,7 +802,7 @@ ul li a:focus {
     padding: 35px;
     top: 3rem;
     position: relative;
-    height: 30rem;
+    height: 27rem;
     width: 70rem;
     max-width: 900px;
     margin: auto;
@@ -893,33 +894,6 @@ ul li a:focus {
     margin: 0 5px;
 }
 
-@media screen and (max-width: 520px) {
-    .screen-body {
-        flex-direction: column;
-    }
-    .screen-body-item.left {
-        margin-bottom: 30px;
-    }
-    .app-title {
-        flex-direction: row;
-    }
-    .app-title span {
-        margin-right: 12px;
-    }
-    .app-title:after {
-        display: none;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .screen-body {
-        padding: 40px;
-    }
-    .screen-body-item {
-        padding: 0;
-    }
-}
-
 
 /*footer */
 
@@ -1004,6 +978,17 @@ ul li a:focus {
     .my-signature {
         font-size: 0.8rem;
     }
+    .ct-container {
+        width: 43rem;
+        height: 25rem;
+    }
+    .ct-img img {
+        width: 230px;
+        height: 230px;
+    }
+    .rightSide {
+        width: 605rem;
+    }
 }
 
 @media screen and (max-width: 670px) {
@@ -1062,6 +1047,19 @@ ul li a:focus {
     }
     .my-signature {
         font-size: 0.5rem;
+    }
+    .ct-container {
+        flex-direction: column;
+        width: 30rem;
+        height: 40rem;
+    }
+    .rightSide {
+        padding-top: 15px;
+        width: 25rem;
+    }
+    .ct-img img {
+        width: 180px;
+        height: 180px;
     }
 }
 
