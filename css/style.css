@@ -757,11 +757,12 @@ ul li a:focus {
 #contact-form {
     margin: 2vw auto 2vw auto;
     position: relative;
-    min-height: 650px;
+    max-height: 700px;
     border-bottom: 1px solid var(--theme-color);
     width: 75%;
     justify-content: center;
     align-items: center;
+    padding-bottom: 40px;
 }
 
 .contact-heading {
@@ -789,50 +790,38 @@ ul li a:focus {
     background-color: var(--font-color-1);
 }
 
-.background {
+.ct-container {
+    margin: 2vw auto 2vw auto;
+    padding: 10px;
+    top: 3rem;
+    position: relative;
+    max-width: 70rem;
+    max-height: 30rem;
     display: flex;
-    min-height: 100vh;
+    border-radius: 25px;
+    font-family: 'Jura', sans-serif;
+    box-shadow: 8px 8px 50px rgb(40, 40, 41);
+    justify-content: space-around;
+    align-items: center;
 }
 
-.container {
-    flex: 0 1 700px;
-    margin: auto;
+.leftSide {
+    display: flex;
+    flex-direction: column;
+    width: 25rem !important;
+    justify-content: center;
+    align-items: center;
     padding: 10px;
 }
 
-.screen {
-    position: relative;
-    background: transparent !important;
-    border-radius: 15px;
+.ct-img img {
+    height: 350px;
+    width: 350px;
+    object-fit: contain;
 }
 
-.screen:after {
-    content: '';
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 20px;
-    right: 20px;
-    bottom: 0;
-    border-radius: 15px;
-    box-shadow: 0 20px 40px rgba(0, 0, 0, .4);
-    z-index: -1;
-}
-
-.screen-body {
-    display: flex;
-    color: var(--font-color-cloud);
-}
-
-.screen-body-item {
-    flex: 1;
-    padding: 30px;
-}
-
-.screen-body-item.left {
-    display: flex;
-    flex-direction: column;
-    width: 20rem !important;
+.rightSide {
+    width: 35rem;
 }
 
 .app-contact {
