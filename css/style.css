@@ -64,7 +64,6 @@ a {
     left: 0;
     right: 0;
     height: 6vh;
-    width: 100%;
     z-index: 1100;
     opacity: 85%;
     background-image: linear-gradient(315deg, #e3ebe9 10%, #e3e8f0 74%);
@@ -944,10 +943,10 @@ ul li a:focus {
         width: 350px;
     }
     #intro {
-        transform: translateY(150px);
+        height: 650px;
     }
     #skills {
-        margin-top: 10rem;
+        margin-top: 5rem;
     }
     .nav-main .nav-logo .logo-heading {
         font-size: 1.7rem;
@@ -1006,31 +1005,23 @@ ul li a:focus {
         font-size: 1.3rem;
     }
     .nav-main .nav-section ul li {
-        padding: 0!important;
-        margin: 0 !important;
+        display: none;
     }
     .nav-main .nav-section ul li a {
         font-size: 1.2rem;
     }
     #intro {
         flex-direction: column;
-        margin-bottom: 5rem;
-        height: 600px;
+        height: 580px;
     }
     #intro .model {
         display: none;
-    }
-    #skills {
-        margin-top: 10rem;
     }
     .model {
         width: 200px;
     }
     .main-text {
         width: 18rem;
-    }
-    .main-intro {
-        transform: translate(-60px, -50px)
     }
     .main-text .logo-heading {
         font-size: 3rem;
