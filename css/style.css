@@ -60,7 +60,7 @@ a {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    position: relative;
+    position: fixed;
     left: 0;
     right: 0;
     height: 6vh;
@@ -104,19 +104,17 @@ a {
 
 #intro {
     margin: 2vw auto 2vw auto;
-    min-height: 350px;
+    height: 500px;
     width: 80%;
     display: flex;
     justify-content: space-around !important;
     align-items: center;
     position: relative;
     /*box-shadow: 0px 12px 11px -4px rgba(182, 182, 182, 0.42);*/
-    /*left: 5%;
-    top: 40%;
-    transform: translate(-5%, -10%);
     /*pending to explain*/
     padding-bottom: 30px;
     border-bottom: 1px solid var(--theme-color);
+    transform: translateY(80px);
 }
 
 .model {
@@ -190,7 +188,7 @@ a {
 /* Skills */
 
 #skills {
-    margin: 2vw auto 2vw auto;
+    margin: 5vw auto 2vw auto;
     position: relative;
     min-height: 600px;
     border-bottom: 1px solid var(--theme-color);
@@ -947,6 +945,12 @@ ul li a:focus {
         transform: translate(-20%, -40%);
         width: 350px;
     }
+    #intro {
+        transform: translateY(150px);
+    }
+    #skills {
+        margin-top: 10rem;
+    }
     .nav-main .nav-logo .logo-heading {
         font-size: 1.7rem;
     }
@@ -1012,8 +1016,12 @@ ul li a:focus {
     }
     #intro {
         flex-direction: column;
-        top: 80px;
+        transform: translateY(300px);
         margin-bottom: 5rem;
+        height: 700px;
+    }
+    #skills {
+        margin-top: 20rem;
     }
     .model {
         width: 200px;
@@ -1041,9 +1049,30 @@ ul li a:focus {
         font-size: 1.1rem;
     }
     .blog-card {
-        width: 30rem;
+        width: 25rem;
         height: 30rem;
-        padding: 10px;
+        padding: 6px;
+    }
+    .blog-heading {
+        font-size: 1.1rem;
+    }
+    .blog-card {
+        height: 25rem;
+    }
+    .blog-card .inner-part {
+        width: 25rem;
+    }
+    .blog-card .inner-part .title {
+        font-size: 1.2rem;
+    }
+    .blog-card .inner-part .text p {
+        font-size: 0.9rem;
+    }
+    .inner-part img {
+        display: none;
+    }
+    .inner-part label {
+        display: none;
     }
     .project-links {
         grid-template-columns: repeat(1, 1fr) !important;
@@ -1055,21 +1084,6 @@ ul li a:focus {
     .project-card {
         width: 10rem !important;
         font-size: 1rem;
-    }
-    .blog-heading {
-        font-size: 1.1rem;
-    }
-    .blog-card {
-        height: 25rem;
-    }
-    .blog-card .inner-part {
-        width: 30rem;
-    }
-    .inner-part img {
-        display: none;
-    }
-    .inner-part label {
-        display: none;
     }
     .sliders {
         bottom: 20px;
