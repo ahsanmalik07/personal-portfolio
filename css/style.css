@@ -1058,15 +1058,16 @@ ul li a:focus {
     }
     .blog-card {
         height: 25rem;
+        width: 23rem;
     }
     .blog-card .inner-part {
-        width: 25rem;
+        width: 23rem;
     }
     .blog-card .inner-part .title {
         font-size: 1.2rem;
     }
     .blog-card .inner-part .text p {
-        font-size: 0.9rem;
+        font-size: 0.8rem;
     }
     .inner-part img {
         display: none;
