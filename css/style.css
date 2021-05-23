@@ -104,16 +104,16 @@ a {
 
 #intro {
     margin: 2vw auto 2vw auto;
-    min-height: 250px;
+    min-height: 350px;
     width: 80%;
     display: flex;
     justify-content: space-around !important;
     align-items: center;
     position: relative;
-    /*box-shadow: 0px 12px 11px -4px rgba(182, 182, 182, 0.42);
-    /*left: 50%;
-    top: 90%;
-    transform: translate(-50%, 20%);
+    /*box-shadow: 0px 12px 11px -4px rgba(182, 182, 182, 0.42);*/
+    /*left: 5%;
+    top: 40%;
+    transform: translate(-5%, -10%);
     /*pending to explain*/
     padding-bottom: 30px;
     border-bottom: 1px solid var(--theme-color);
@@ -1010,9 +1010,32 @@ ul li a:focus {
     .nav-main .nav-section ul li a {
         font-size: 1.2rem;
     }
+    #intro {
+        flex-direction: column;
+        top: 80px;
+        margin-bottom: 5rem;
+    }
+    .model {
+        width: 200px;
+    }
+    .main-text {
+        width: 20rem;
+    }
+    .main-text .logo-heading {
+        font-size: 3rem;
+    }
+    .main-text h5 {
+        font-size: 1rem;
+    }
+    .main-text p {
+        font-size: 1rem;
+    }
     .s-box-container {
         grid-template-columns: 1fr;
         padding: 2rem 50px;
+    }
+    .skill-heading {
+        font-size: 1.1rem;
     }
     .blog-card {
         width: 30rem;
@@ -1023,8 +1046,18 @@ ul li a:focus {
         grid-template-columns: repeat(1, 1fr) !important;
         padding: 2rem 50px;
     }
+    .project-heading {
+        font-size: 1.1rem;
+    }
     .project-card {
         width: 10rem !important;
+        font-size: 1rem;
+    }
+    .blog-heading {
+        font-size: 1.1rem;
+    }
+    .blog-card {
+        height: 25rem;
     }
     .blog-card .inner-part {
         width: 30rem;
@@ -1043,6 +1076,25 @@ ul li a:focus {
         position: relative;
         height: 10px;
         width: 40px;
+    }
+    .impr-heading {
+        font-size: 1.1rem;
+    }
+    #sticky-notes ul li a {
+        height: 16rem;
+        width: 16rem;
+    }
+    #sticky-notes h2 {
+        font-size: 1.5rem;
+    }
+    #sticky-notes h4 {
+        font-size: 1.2rem;
+    }
+    #sticky-notes p {
+        font-size: 1.4rem;
+    }
+    .contact-heading {
+        font-size: 1.1rem;
     }
     .footer-icons,
     .return-button {
