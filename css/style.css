@@ -1155,4 +1155,19 @@ ul li a:focus {
     .my-signature {
         font-size: 0.5px;
     }
+    .ct-container {
+        flex-direction: column;
+        width: 20rem;
+        height: 32rem;
+    }
+    .rightSide {
+        width: 16rem;
+    }
+    .leftSide {
+        transform: translate(-60px, -20px);
+    }
+    .ct-img img {
+        width: 140px;
+        height: 140px;
+    }
 }
