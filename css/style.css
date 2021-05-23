@@ -1129,7 +1129,7 @@ ul li a:focus {
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 440px) {
     .blog-card {
         width: 20rem;
         height: 28rem;
@@ -1172,17 +1172,17 @@ ul li a:focus {
     }
     .ct-container {
         flex-direction: column;
-        width: 20rem;
+        width: 18rem;
         height: 34rem;
     }
     .rightSide {
-        width: 16rem;
+        width: 14rem;
     }
     .rightSide .app-form-control {
         font-size: 0.9rem;
     }
     .leftSide {
-        transform: translateX(-60px);
+        transform: translateX(-80px);
     }
     .leftSide .app-contact {
         font-size: 0.9rem;
